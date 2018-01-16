@@ -40,7 +40,10 @@ class ApiController extends Controller
         $this->repository = $repository;
         $this->request = $request;
     }
-
+    /**
+     * @param $limit
+     * @return JsonResponse
+     */
     public function index($limit = 100)
     {
         $list = [];

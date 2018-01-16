@@ -11,5 +11,4 @@ class CategoryController extends ApiController
     {
         parent::__construct($repository, $request);
     }
-
 }
