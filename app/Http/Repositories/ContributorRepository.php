@@ -2,12 +2,18 @@
 
 namespace App\Http\Repositories;
 
-use App\Category as Model;
+use App\Contributor as Model;
 
-class CategoryRepository extends Repository
+class ContributorRepository extends Repository
 {
     public function __construct(Model $model)
     {
         parent::__construct($model);
     }
+
+    public function featured($limit, $featured)
+    {
+        return $this->model->where('featured', $featured)->paginate($limit);
+    }
+
 }

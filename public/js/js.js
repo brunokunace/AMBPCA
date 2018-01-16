@@ -86,18 +86,16 @@
 	    }
     });
   };
-    // Carousels
-    if($("#promotions-home").length>0){
-		$("#promotions-home").owlCarousel({
-            items:1,
-            loop:true,
-            margin:10,
-            autoplay:true,
-            autoplayTimeout:3000,
-            autoplayHoverPause:true,
-            // autoWidth: true
-		});
-    };
+
+    var owl = $('#promotions-home');
+    owl.owlCarousel({
+        items: 1,
+        autoplay: true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        loop: owl.children().length > 1,
+        margin:10
+    });
 
   if ($("#post-slider").length>0) {
   	$("#post-slider").owlCarousel({
