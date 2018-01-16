@@ -3,9 +3,11 @@
 use Illuminate\Http\Request;
 
 $routeNames = [
-    'Category',
-    'Post',
-    'Contributor'
+    'category',
+    'post',
+    'contributor',
+    'serviceworkersworker',
+    'serviceworkerscategory'
 ];
 
 function routes($name)
@@ -13,19 +15,19 @@ function routes($name)
     return Route::group(['prefix' => $name, 'namespace' => "Api"], function () use ($name) {
 
         Route::get('', [
-            'uses' => "{$name}Controller@index"
+            'uses' => ucfirst($name)."Controller@index"
         ]);
         Route::get('/{id}', [
-            'uses' => "{$name}Controller@get"
+            'uses' => ucfirst($name)."Controller@get"
         ]);
         Route::post('', [
-            'uses' => "{$name}Controller@post"
+            'uses' => ucfirst($name)."Controller@post"
         ]);
         Route::put('/{id}', [
-            'uses' => "{$name}Controller@put"
+            'uses' => ucfirst($name)."Controller@put"
         ]);
         Route::delete('/{id}', [
-            'uses' => "{$name}Controller@delete"
+            'uses' => ucfirst($name)."Controller@delete"
         ]);
     });
 }

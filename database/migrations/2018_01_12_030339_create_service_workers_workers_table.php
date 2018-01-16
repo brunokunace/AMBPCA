@@ -15,6 +15,7 @@ class CreateServiceWorkersWorkersTable extends Migration
     {
         Schema::create('service_workers_workers', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('title');
             $table->longText('content');
             $table->integer('service_workers_category_id')->unsigned();
             $table->foreign('service_workers_category_id')
