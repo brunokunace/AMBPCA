@@ -27,6 +27,14 @@ Route::get('/noticias', [
     'uses' => 'BlogController@index'
 ])->name('blog');
 
+Route::get('/prestadoresdeservicos', [
+    'uses' => 'ServiceWorkersWorkerController@index'
+])->name('serviceworkers');
+
+Route::get('/prestadoresdeservicoscategoria/{id}', [
+    'uses' => 'ServiceWorkersWorkerController@show'
+])->name('serviceworkerscategory');
+
 Route::get('/noticias/{id}', [
     'uses' => 'BlogController@show'
 ])->name('blog.show');

@@ -19,8 +19,8 @@
                                 <li><a href="#">Associados</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">Prestadores de Serviço</a>
+                        <li class="{{ active('serviceworkers') }}">
+                            <a href="{{ route('serviceworkers') }}">Prestadores de Serviços</a>
                         </li>
                         <li>
                             <a href="#">Legislação</a>

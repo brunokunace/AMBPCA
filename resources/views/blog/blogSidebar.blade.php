@@ -17,7 +17,7 @@
             </div>
             <div class="categories">
                 @foreach($categories as $category)
-                    <a href="#">{{ $category->name }}<span> {{  $category->id  }}</span></a>
+                    <a href="#">{{ $category->name }}<span> {{  $category->posts->count()  }}</span></a>
                 @endforeach
             </div>
         </div>
