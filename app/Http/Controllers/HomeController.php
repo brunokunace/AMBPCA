@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Repositories\PostRepository;
 
 class HomeController extends Controller
 {
@@ -21,9 +21,11 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(PostRepository $postRepository)
     {
-        return view('home.home');
+        $posts = $postRepository->latest(3);
+
+        return view('home.home')->with('posts', $posts);
     }
 
 }
