@@ -54,3 +54,21 @@ Route::group(['prefix' => 'post', 'namespace' => 'Api'], function () {
         'uses' => 'PostController@delete'
     ]);
 });
+Route::group(['prefix' => 'contributor', 'namespace' => 'Api'], function () {
+
+    Route::get('', [
+        'uses' => 'ContributorController@index'
+    ]);
+    Route::get('/{id}', [
+        'uses' => 'ContributorController@get'
+    ]);
+    Route::post('', [
+        'uses' => 'ContributorController@post'
+    ]);
+    Route::put('/{id}', [
+        'uses' => 'ContributorController@put'
+    ]);
+    Route::delete('/{id}', [
+        'uses' => 'ContributorController@delete'
+    ]);
+});

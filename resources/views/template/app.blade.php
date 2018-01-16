@@ -37,7 +37,7 @@
 <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/jquery.meanmenu.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/progress-bar-appear.js') }}"></script>
-<script type="text/javascript" src="{{ asset('owl-carousel/owl.carousel.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('owl-carousel/owl.carousel.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/nivo-lightbox.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/isotope.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/countdown.js') }}"></script>
