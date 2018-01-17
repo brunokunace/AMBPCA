@@ -23,9 +23,9 @@ Route::get('/contato', function () {
     return view('contactus.contactus');
 })->name('contactus');
 
-Route::get('/noticias', [
-    'uses' => 'BlogController@index'
-])->name('blog');
+Route::get('/legislacao', [
+    'uses' => 'LawController@index'
+])->name('laws');
 
 Route::get('/prestadoresdeservicos', [
     'uses' => 'ServiceWorkersWorkerController@index'
@@ -34,6 +34,10 @@ Route::get('/prestadoresdeservicos', [
 Route::get('/prestadoresdeservicoscategoria/{id}', [
     'uses' => 'ServiceWorkersWorkerController@show'
 ])->name('serviceworkerscategory');
+
+Route::get('/noticias', [
+    'uses' => 'BlogController@index'
+])->name('blog');
 
 Route::get('/noticias/{id}', [
     'uses' => 'BlogController@show'

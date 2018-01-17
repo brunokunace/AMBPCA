@@ -22,8 +22,8 @@
                         <li class="{{ active('serviceworkers') }}">
                             <a href="{{ route('serviceworkers') }}">Prestadores de Serviços</a>
                         </li>
-                        <li>
-                            <a href="#">Legislação</a>
+                        <li class="{{ active('laws') }}">
+                            <a href="{{ route('laws') }}">Legislação</a>
                         </li>
                         <li>
                             <a href="#">Calendário</a>
