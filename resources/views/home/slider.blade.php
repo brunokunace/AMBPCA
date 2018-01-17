@@ -1,6 +1,6 @@
 <div class="slider-section">
     <div class="slider-active owl-carousel">
-        <div class="single-slider slider-screen nrbop bg-black-alfa-40" style="background-image: url({{ asset('img/slides/s1.jpg')}});">
+        <div class="single-slider slider-screen nrbop bg-black-alfa-40" style="background-image: url({{ asset('img/slides/s2.jpg')}});">
             <div class="container">
                 <div class="slider-content text-white">
                     <h2 class="b_faddown1 cd-headline clip is-full-width" >CHÁCARA DAS ANDORINHAS</h2>
@@ -10,7 +10,7 @@
                 </div>
             </div>
         </div>
-        <div class="single-slider slider-screen nrbop bg-black-alfa-40" style="background-image: url({{ asset('img/slides/s1.jpg')}});">
+        <div class="single-slider slider-screen nrbop bg-black-alfa-40" style="background-image: url({{ asset('img/slides/s3.jpg')}});">
             <div class="container">
                 <div class="slider-content text-white">
                     <h2 class="b_faddown1 cd-headline clip is-full-width" >CHÁCARA DAS ANDORINHAS</h2>

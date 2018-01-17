@@ -9,7 +9,8 @@ $routeNames = [
     'serviceworkersworker',
     'serviceworkerscategory',
     'law',
-    'calendar'
+    'calendar',
+    'gallery'
 ];
 
 function routes($name)

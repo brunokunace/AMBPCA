@@ -19,6 +19,10 @@ Route::get('/', [
     'uses' => 'HomeController@index'
 ])->name('home');
 
+Route::get('/galeria', [
+    'uses' => 'GalleryController@index'
+])->name('gallery');
+
 Route::get('/contato', function () {
     return view('contactus.contactus');
 })->name('contactus');
