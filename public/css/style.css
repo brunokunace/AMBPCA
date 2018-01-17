@@ -447,7 +447,7 @@ header {
   margin-right: 10px;
 }
 .content-box .info-block {
-  margin-bottom: 3%;
+  margin-bottom: 2%;
   padding: 20px;
   text-align: center;
 }
@@ -3171,7 +3171,7 @@ footer .footer-bar h5 a {
 .list-cause-area .content-box .info-block {
   background: #fff none repeat scroll 0 0;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.08);
-  padding: 32px 29px;
+  padding: 32px 29px 70px 29px;
   text-align: left;
 }
 .single-cause .btn.btn-big.btn-solid {
@@ -3512,9 +3512,7 @@ footer .subcribe form .field input {
 }
 .mobile-menu-area {
   display: block;
-} 
- 
- 
+}
 }
 .footer-logo {
   max-width: 250px;
@@ -3525,15 +3523,9 @@ footer .subcribe form .field input {
 .banner-blog {
   background: url(../img/bgs-top/banner-blog.jpg) center center no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.banner-serviceworkers {
+  background: url(../img/bgs-top/banner-serviceworkers.jpg) center center no-repeat;
+}
+.banner-laws {
+  background: url(../img/bgs-top/banner-laws.jpg) center center no-repeat;
+}
