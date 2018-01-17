@@ -25,8 +25,8 @@
                         <li class="{{ active('laws') }}">
                             <a href="{{ route('laws') }}">Legislação</a>
                         </li>
-                        <li>
-                            <a href="#">Calendário</a>
+                        <li class="{{ active('calendar') }}">
+                            <a href="{{ route('calendar') }}">Calendário</a>
                         </li>
                         <li class="{{ active('contactus') }}">
                             <a href="{{ route('contactus') }}">Contate-nos</a>

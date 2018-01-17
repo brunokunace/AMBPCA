@@ -3529,3 +3529,25 @@ footer .subcribe form .field input {
 .banner-laws {
   background: url(../img/bgs-top/banner-laws.jpg) center center no-repeat;
 }
+.banner-calendar {
+  background: url(../img/bgs-top/banner-calendar.jpg) center center no-repeat;
+}
+
+.event-calendar {
+  background: #0aaaa0 none repeat scroll 0 0;
+  color: #fff;
+  display: block;
+  float: left;
+  font-weight: 900;
+  height: 100px;
+  line-height: 40px;
+  margin: -31px 20px 15px -30px;
+  padding-top: 10px;
+  text-align: center;
+  width: 100px;
+  font-size: 18px;
+}
+
+.event-passed {
+  background-color: #930404;
+}

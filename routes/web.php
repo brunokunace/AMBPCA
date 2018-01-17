@@ -27,6 +27,14 @@ Route::get('/legislacao', [
     'uses' => 'LawController@index'
 ])->name('laws');
 
+Route::get('/calendario', [
+    'uses' => 'CalendarController@index'
+])->name('calendar');
+
+Route::get('/evento/{id}', [
+    'uses' => 'CalendarController@show'
+])->name('event');
+
 Route::get('/prestadoresdeservicos', [
     'uses' => 'ServiceWorkersWorkerController@index'
 ])->name('serviceworkers');
