@@ -3532,6 +3532,9 @@ footer .subcribe form .field input {
 .banner-calendar {
   background: url(../img/bgs-top/banner-calendar.jpg) center center no-repeat;
 }
+.banner-gallery {
+  background: url(../img/bgs-top/banner-gallery.jpg) center center no-repeat;
+}
 
 .event-calendar {
   background: #0aaaa0 none repeat scroll 0 0;
@@ -3550,4 +3553,8 @@ footer .subcribe form .field input {
 
 .event-passed {
   background-color: #930404;
+}
+
+.images-outer {
+  padding: 5px;
 }

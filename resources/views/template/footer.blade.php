@@ -6,7 +6,7 @@
                     <div class="logo-wrap text-center">
                         <img src="{{asset('img/logo-AMPBCA.png')}}" alt="Logo" class="footer-logo"/>
                     </div>
-                    <p>Informação da Associação que será alterada posteriormente, esses dados são apenas para teste. </p>
+                    <p>A Associação de Moradores e Proprietários do bairro Chácara das Andorinhas é uma entidade civil de direito privado sem fins lucrativos, fundada em 07 de abril de 2003, com sede provisória a Rua H, 90, criada em especial para organizar  e manter as areas de uso comum, disciplinar a construção, ocupação e uso do solo do loteamento com vistas transformá-lo em "condomínio fechado" conforme dispõe o nosso Estatuto.</p>
                     <div class="social-media-icons">
                         <a href="#"><i class="fa fa-twitter"></i><span>Twitter</span></a>
                         <a href="#"><i class="fa fa-google-plus"></i><span>Google +</span></a>
@@ -21,12 +21,12 @@
                 <div class="quick-links widget clearfix">
                     <h4 class="title">Links Úteis</h4>
                     <div class="links">
-                        <a href="#"><i class="fa fa-angle-double-right"></i>Sobre Nós</a>
-                        <a href="#"><i class="fa fa-angle-double-right"></i>Prestadores de Serviço</a>
-                        <a href="#"><i class="fa fa-angle-double-right"></i>Legislação</a>
-                        <a href="#"><i class="fa fa-angle-double-right"></i>Calendário</a>
-                        <a href="#"><i class="fa fa-angle-double-right"></i>Contate-nos</a>
-                        <a href="#"><i class="fa fa-angle-double-right"></i>Notícias</a>
+                        <a href="{{ route('home') }}"><i class="fa fa-angle-double-right"></i>Home</a>
+                        <a href="{{ route('serviceworkers') }}"><i class="fa fa-angle-double-right"></i>Prestadores de Serviço</a>
+                        <a href="{{ route('laws') }}"><i class="fa fa-angle-double-right"></i>Legislação</a>
+                        <a href="{{ route('calendar') }}"><i class="fa fa-angle-double-right"></i>Calendário</a>
+                        <a href="{{ route('contactus') }}"><i class="fa fa-angle-double-right"></i>Contate-nos</a>
+                        <a href="{{ route('blog') }}"><i class="fa fa-angle-double-right"></i>Notícias</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
     </div>
     <div class="footer-bar">
         <div class="container">
-            <h5>Copyright ©2017 Associação de Moradores e Proprietários do Bairro Chácara das Andorinhas. Todos os direitos reservados</h5>
+            <h5>Copyright ©2018 Associação de Moradores e Proprietários do Bairro Chácara das Andorinhas. Todos os direitos reservados</h5>
         </div>
     </div>
 </footer>

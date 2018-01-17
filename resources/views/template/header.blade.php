@@ -16,7 +16,9 @@
                                 <li><a href="#">Cadastre-se</a></li>
                                 <li><a href="#">Sugestões</a></li>
                                 <li><a href="#">Depoimentos</a></li>
-                                <li><a href="#">Associados</a></li>
+                                <li class="{{ active('gallery') }}">
+                                    <a href="{{ route('gallery') }}">Fotos</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="{{ active('serviceworkers') }}">
